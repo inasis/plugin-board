@@ -68,7 +68,8 @@
   font-weight: normal;
 }
 .board .xe-label{
-  vertical-align: middle;
+  display: inline-block;
+  width: 18px;
 }
 .board textarea {
   resize: vertical;
@@ -730,7 +731,8 @@
 .board_list.v2 .more_info {
   padding-top: 7px;
 }
-.board_list.v2 .more_info .xe-label{
+.board_list.v2 .more_info 
+{
   margin-right: 8px;
 }
 .board_list.v2 .thumb_area > a,
